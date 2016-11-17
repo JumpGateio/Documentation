@@ -1,7 +1,11 @@
 # Set up
 
-- []()
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Database](#database)
 
+<a name="introduction"></a>
 ## Introduction
 In this walk through we will be building a simple blog app starting with JumpGate.  It really should not take too long so 
 feel free to follow along.
@@ -9,6 +13,7 @@ feel free to follow along.
 During this walkthrough I will be assuming you are using the prerequisites listed below and your set up using valet.  If you 
  are using homestead or something else, modify the valet sections to suit your environment.
 
+<a name="prerequisites"></a>
 ## Prerequisites
 - yarn
     - `npm install -g yarn`
@@ -27,6 +32,7 @@ During this walkthrough I will be assuming you are using the prerequisites liste
 - [JumpGateInstaller](https://github.com/NukaSRB/Installer)
     - `composer global require jumpgate/installer`
 
+<a name="installation"></a>
 ## Installation
 
 First, go make the directory you want your projects to live in.  I use `~/Code/` but use anything you want.
@@ -38,6 +44,7 @@ thing.  This will bring in JumpGate with [Core](https://github.com/NukaSRB/Core)
 Once it finished, go into your new project (`cd Blog/`) and run `valet park`.  This will let valet start sharing the 
 directory.  And speaking of, you should now be able to browse to `http://blog.dev` and see the JumpGate homepage!
  
+<a name="database"></a>
 ## Database
 
 With installation out of the way, lets look to the database.  Since we will need one we should work on the design that we 
