@@ -15,9 +15,11 @@ During this walkthrough I will be assuming you are using the prerequisites liste
 
 <a name="prerequisites"></a>
 ## Prerequisites
-- yarn
+- [Node](https://nodejs.org/en/download/)
+    - `npm install npm@latest -g`
+- [Yarn](https://github.com/yarnpkg/yarn)
     - `npm install -g yarn`
-- [composer](https://getcomposer.org/download/)
+- [Composer](https://getcomposer.org/download/)
 - [Homebrew](http://brew.sh/)
 - PHP/MySql
     - [Homestead](https://laravel.com/docs/5.3/homestead)
@@ -37,12 +39,20 @@ During this walkthrough I will be assuming you are using the prerequisites liste
 
 First, go make the directory you want your projects to live in.  I use `~/Code/` but use anything you want.
 
-In your terminal go into that directory (`cd ~/Code`).  Now we will bring in JumpGate.  Run `jumpgate new Blog` and let the installer do its 
-thing.  This will bring in JumpGate with [Core](https://github.com/NukaSRB/Core), [Menu](https://github.com/NukaSRB/Menu), 
-[Admin](https://github.com/NukaSRB/Admin) and [Users](https://github.com/NukaSRB/Users).  Everything we need to start up a blog.
+In your terminal go into that directory (`cd ~/Code`) and run `valet park`.  This will let valet start sharing the directory.  
+Now we will bring in JumpGate.  Run `jumpgate new Blog` and let the installer do its thing.  This will bring in JumpGate 
+with [Core](https://github.com/NukaSRB/Core), [Menu](https://github.com/NukaSRB/Menu), [Admin](https://github.com/NukaSRB/Admin) 
+and [Users](https://github.com/NukaSRB/Users).  Everything we need to start up a blog.
 
-Once it finished, go into your new project (`cd Blog/`) and run `valet park`.  This will let valet start sharing the 
-directory.  And speaking of, you should now be able to browse to `http://blog.dev` and see the JumpGate homepage!
+Once it finished, go into your new project (`cd Blog/`)  And speaking of finished, you should now be able to browse to 
+`http://blog.dev` and see the JumpGate homepage!
+
+```
+cd ~/Code
+valet park
+jumpgate new Blog
+cd Blog
+```
  
 <a name="database"></a>
 ## Database
