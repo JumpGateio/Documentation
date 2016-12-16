@@ -1,6 +1,10 @@
 # Micro-Service Architecture
  
 - [Introduction](#introduction)
+- [Set Up](#set-up)
+    - [Manual](#set-up-manual)
+    - [Commands](#set-up-commands)
+- [Naming Conventions](#naming-conventions)
  
 <a name="introduction"></a>
 ## Introduction
@@ -13,6 +17,7 @@ a built in stopping point to push, stage and demo.
 
 <a name="set-up"></a>
 ## Set Up
+<a name="set-up-manual"></a>
 ### Manually
 To begin with services, create a `Services` folder in your `app` directory if one doesn't exist already.  Inside that folder 
 you should place any of the following folders you may need.
@@ -38,9 +43,11 @@ your class based routes.  Repositories would be where repositories go should you
 of the transformer files used to make sure the view and vue files have consistent data at all times.  These could also be 
 used for APIs.
 
+<a name="set-up-commands"></a>
 ### Commands
 This section will be written once the commands are completed.
 
+<a name="naming-conventions"></a>
 ## Naming Conventions
 For consistency the following rules should be observed.
 
