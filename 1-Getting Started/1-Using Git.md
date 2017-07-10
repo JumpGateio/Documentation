@@ -2,14 +2,15 @@
 
 ```
 cd <project dir>
-git clone git@github.com:NukaSRB/JumpGate.git ./
+git clone git@github.com:JumpGateio/JumpGate.git ./
 composer install
 cp .env.example .env
 php artisan key:generate
 yarn
-gulp
-php artisan vendor:publish --provider="JumpGate\Core\Providers\ViewServiceProvider"
+npm run dev
 ```
+
+> If you want to include users, use git@github.com:JumpGateio/JumpGate-Users.git for the clone.
 
 At this point, your site will display the JumpGate home page.  From here on out, you will customize as you normally would.
 
