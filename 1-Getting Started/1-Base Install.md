@@ -25,6 +25,6 @@ At this point, your site will display the JumpGate home page.  From here on out,
 
 If your site will need users you have 3 choices here.  
 
-1. Install the [JumpGate-Users repository](/2-Users%20Install.md) instead.
-1. Run through [adding users](/3-Add%20Users%20to%20Base%20Install.md) to a base JumpGate installation.
+1. Install the [JumpGate-Users repository](/1-Getting%20Started/2-Users%20Install.md) instead.
+1. Run through [adding users](/1-Getting%20Started/3-Add%20Users%20to%20Base%20Install.md) to a base JumpGate installation.
 1. Create your own users system.
