@@ -17,7 +17,7 @@ npm run dev
 ```
 At this point, your site will display the JumpGate home page using bootstrap 3.  From here on out, you will customize as you normally would.
 
-> You can run `php artisan css:framework uikit` to switch the front end to uikit.
+> You can run `php artisan css:set uikit` to switch the front end to uikit.
 
 1. Set up your database in the `.env` file
 1. Run `php artisan migrate`.
